@@ -2,9 +2,9 @@
         .right-side {background-color: #7EB3FF;}
         .head-row {background-color: #ededed;}
         .image-center {padding: 20px;margin: auto;text-align: center;}
-        .image-center img {display: block;border-radius: 50px;margin: auto;width: 25%;}
+        .image-center img {display: block;border-radius: 50px;margin: auto;height: 400px;}
         .centring {margin: auto; display: flex;justify-content: center; align-items: center;}
         .first-item {border-radius: 50%;margin: 15px;display: inline-block;padding: 40px;
          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
-        .description {margin:5px 150px 5px 150px ;text-align: center;}
+        .description {margin:5px 5px 5px 5px ;text-align: center;}
         .carousel-item img {width: 700px ;height:500px}
