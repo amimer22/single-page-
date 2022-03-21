@@ -20,6 +20,8 @@
   
   max-width: 80%;
   }
+  .side-navs li {margin-top: 35px;margin-bottom: 35px;}
+  .side-navs li .nav-link {border-radius: 0px;border: solid 1px;}
 </style>
 <body>
 
@@ -70,28 +72,28 @@
     </nav>
     
     <div class="row">
-      <div class="col-3">
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#menu1">Menu 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#menu2">Menu 2</a>
-              </li>
+      <div class="col-2">
+        <!-- Nav pills -->
+        <ul class="nav nav-pills side-navs flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="pill" href="#home">Home</a>
+          </li>
+          <br>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="pill" href="#menu1">Menu 1</a>
+          </li>
+          <br>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="pill" href="#menu2">Menu 2</a>
+          </li>
         </ul>
-
       </div>
       <div class="col-9">
-          <!-- Tab panes -->
-          <div class="tab-content">
-            <div class="tab-pane container active" id="home">...</div>
-            <div class="tab-pane container fade" id="menu1">...</div>
-            <div class="tab-pane container fade" id="menu2">...</div>
-          </div>
+        <div class="tab-content">
+          <div class="tab-pane container active" id="home">...</div>
+          <div class="tab-pane container fade" id="menu1">...</div>
+          <div class="tab-pane container fade" id="menu2">...</div>
+        </div>
       </div>
     </div>
     
